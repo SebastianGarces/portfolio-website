@@ -219,7 +219,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.1em;
+		font-size: 1.5em;
 	}
 
 	h4 {
@@ -1994,7 +1994,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 3.5em 3em 1em 8em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #202840;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3240,27 +3240,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #0C0C0D;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #141416;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #2b2b2b;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #0C0C0D;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #141416
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #0C0C0D;
 		}
 
 		.wrapper.fullscreen {
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #0C0C0D;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,14 +3761,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #D8DCF2;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #202840, #D8DCF2);
+				background-image: -webkit-linear-gradient(to right, #202840, #D8DCF2);
+				background-image: -ms-linear-gradient(to right, #202840, #D8DCF2);
+				background-image: linear-gradient(to right, #202840, #D8DCF2);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3857,7 +3857,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #2A558C;
 						}
 
 		}
@@ -3873,8 +3873,12 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
+		background-image: linear-gradient(
+										rgba(0,0,0,0.6), 
+										rgba(0,0,0,0.8)
+											), 
+											url("/images/john-salzarulo-QGol05UIiiQ-unsplash.jpg");
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
