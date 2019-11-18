@@ -3304,7 +3304,7 @@ input, select, textarea {
 
 				.wrapper.fullscreen {
 					padding: 2em 0;
-					min-height: 0;
+					min-height: 100vh;
 				}
 
 					body.is-ie .wrapper.fullscreen {
@@ -3879,14 +3879,14 @@ input, select, textarea {
 
 	#intro {
 		background-image: linear-gradient(
-										rgba(0,0,0,0.6), 
-										rgba(0,0,0,0.8)
+										rgba(0,0,0,0.4), 
+										rgba(0,0,0,0.9)
 											), 
-											url("/images/john-salzarulo-QGol05UIiiQ-unsplash.jpg");
+											url("/images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg");
 		background-attachment: fixed;
-		background-position: top right;
+		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: cover;
 	}
 
 		#intro p {
