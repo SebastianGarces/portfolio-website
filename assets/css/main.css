@@ -156,6 +156,10 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+	#main .inner p {
+		text-align: center;
+	}
+
 		a:hover {
 			border-bottom-color: transparent;
 			color: #ffffff;
